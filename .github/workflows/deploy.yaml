@@ -22,7 +22,7 @@ jobs:
       - name: Build
         uses: konstfish/quartz-build-action@v7
         with:
-          source: docs
+          source: "."
           page_title: "🧠 Sid's Brain"
 
       - name: Upload artifact
