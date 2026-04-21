@@ -1,0 +1,11 @@
+# Private content (ALWAYS ignored)
+sid/Private/
+trash/
+private/
+.obsidian/workspace*.json
+.obsidian/cache/
+.obsidian/*.old
+.cursor/
+
+# newly added
+.obsidian
