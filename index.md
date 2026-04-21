@@ -1,7 +1,7 @@
 ---
-title: 🧠 Fork My Brain
-description: "Personal knowledge base covering AWS, Kubernetes, Docker, Terraform, and DevOps. Learn cloud engineering through practical notes and experiments."
-tags: [om, aws, kubernetes, docker, terraform, devops, cloud, networking]
+title: Hi 👋
+description: "Personal knowledge base covering Cloud, DSA, OS, Networking, System-design, LLD. Learn cloud engineering through practical notes and experiments."
+tags: [sid, Cloud, DSA, OS, Networking, System-design, LLD]
 created: 2025-12-10
 updated: 2026-03-19
 ---
@@ -64,20 +64,16 @@ Learning should be shared, not hidden.
 
 ## 👤 About Me
 
-I'm **Om Mapari**, a Software Engineer (SDE-2) at Barclays specializing in DevSecOps, AWS Cloud, and Full-Stack Engineering. This site documents my ongoing journey through technology, software development, life and everything I learn along the way.
+I'm **Siddhesh Jungade**, a Software Engineer (cloud Engineer) at SAS specializing in Cloud, and Full-Stack Engineering. This site documents my ongoing journey through technology, software development, life and everything I learn along the way.
 
 <div style="margin-bottom: 1.5rem; padding: 0.75rem 1rem; background: var(--lightgray); border-radius: 8px; display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
-  <span>👋 I'm <strong>Om Mapari</strong>, a Software Engineer at Barclays.</span>
-  <a href="https://om-mapari.com" rel="me" style="color: var(--secondary); text-decoration: underline;">View my Portfolio →</a>
+  <span>👋 I'm <strong>Siddhesh </strong>, a Software Engineer at SAS.</span>
+  <a href="https://brain.siddheshjungade.dev" rel="me" style="color: var(--secondary); text-decoration: underline;">View my Portfolio →</a>
 </div>
 
-<div style="margin-bottom: 1.5rem; padding: 0.75rem 1rem; background: var(--lightgray); border-radius: 8px; display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
-  <span>🐚 Currently building — <strong>Shello CLI</strong>. <em>Say hello to shello</em>, an AI assistant for debugging real systems and massive logs.</span>
-  <a href="https://github.com/om-mapari/shello-cli" style="color: var(--secondary); text-decoration: underline;">Contributions welcome →</a>
-</div>
 
 ---
 
-<a href="https://github.com/om-mapari">GitHub</a> · <a href="https://linkedin.com/in/om-mapari">LinkedIn</a> · <a href="https://x.com/coder_om">Twitter </a> · <a href="https://www.instagram.com/iam_om.i/">Instagram </a>
+<a href="https://github.com/siddheshjungade">GitHub</a> · <a href="https://linkedin.com/in/siddheshjungade">LinkedIn</a> · <a href="https://x.com/siddheshjungade">Twitter </a> 
 
 ---
