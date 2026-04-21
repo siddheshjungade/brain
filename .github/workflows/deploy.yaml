@@ -14,19 +14,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@latest
 
       - name: Setup Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@latest
 
       - name: Build
-        uses: konstfish/quartz-build-action@v5
+        uses: konstfish/quartz-build-action@latest
         with:
           source: docs
-          page_title: "My Notes"
+          page_title: "Sid's Brain"
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@latest
         with:
           path: _site
 
