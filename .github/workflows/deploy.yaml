@@ -23,6 +23,7 @@ jobs:
         uses: konstfish/quartz-build-action@v7
         with:
           source: "."
+          quartz_repo: https://github.com/siddheshjungade/base
           page_title: "🧠 Sid's Brain"
 
       - name: Upload artifact
