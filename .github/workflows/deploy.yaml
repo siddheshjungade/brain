@@ -20,10 +20,10 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Build
-        uses: konstfish/quartz-build-action@latest
+        uses: konstfish/quartz-build-action@v7
         with:
           source: docs
-          page_title: "🧠Sid's Brain"
+          page_title: "🧠 Sid's Brain"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
