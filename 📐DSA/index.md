@@ -2,4 +2,4 @@
 title: 📐DSA
 ---
 
-Notes about dsa.
+Notes about DSA.
