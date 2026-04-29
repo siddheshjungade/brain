@@ -1,5 +1,5 @@
 ---
-title: 4. DNS Server
+title: DNS Server
 tags:
     - Networking
 
