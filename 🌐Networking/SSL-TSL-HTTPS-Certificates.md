@@ -1,5 +1,5 @@
 ---
-title: 5. SSL, TLS, HTTPS, Certificates
+title: SSL, TLS, HTTPS, Certificates
 tags:
     - Networking
 ---
