@@ -2,4 +2,4 @@
 title: 🌐Networking
 ---
 
-Notes about networking.
+Notes about networking and Internet.
