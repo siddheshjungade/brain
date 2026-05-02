@@ -1,3 +1,12 @@
+---
+title: 1. Scaling to Million User
+draft: true
+tags:
+  - system-desing
+  - basic
+---
+
+
 # 🚀 Scaling from Zero to Millions of Users
 
 > Based on *System Design Interview* by Alex Xu — Chapter 1
