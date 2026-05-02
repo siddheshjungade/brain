@@ -1,6 +1,5 @@
 ---
 title: Scaling to Million Users
-draft: true
 tags:
   - system-desing
   - basic
