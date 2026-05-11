@@ -15,16 +15,16 @@ The **kernel** is the core component of an operating system. It sits between **h
 
 > Think of it as the **permanent resident** of RAM — it's always loaded, always running.
 
-```
-┌──────────────────────────────┐
-│       User Applications      │  ← User Space (Ring 3)
-├──────────────────────────────┤
-│         System Calls         │  ← The gate between worlds
-├──────────────────────────────┤
-│           Kernel             │  ← Kernel Space (Ring 0)
-├──────────────────────────────┤
-│          Hardware            │  ← CPU, RAM, Disk, NIC
-└──────────────────────────────┘
+```mermaid
+graph TD
+    A["User Applications<br/>(Ring 3)"] -->|User Space| B["System Calls<br/>(The gate between worlds)"]
+    B -->|Kernel Space| C["Kernel<br/>(Ring 0)"]
+    C -->|Hardware| D["CPU, RAM, Disk, NIC"]
+    
+    style A fill:#e1f5ff
+    style B fill:#fff9c4
+    style C fill:#f3e5f5
+    style D fill:#e8f5e9
 ```
 
 ### Core Responsibilities
@@ -66,15 +66,15 @@ This is the **most important architectural decision** in OS design.
 ```
 ┌───────────────────────────────────────┐
 │              User Space               │
-│   [ App1 ]   [ App2 ]   [ App3 ]     │
+│   [ App1 ]   [ App2 ]   [ App3 ]      │
 ├───────────────────────────────────────┤
-│          System Call Interface         │
+│          System Call Interface        │
 ├───────────────────────────────────────┤
 │            Kernel Space               │
 │  ┌─────────────────────────────────┐  │
-│  │  Scheduler │ Memory Mgmt │ VFS │  │
-│  │  Network   │ Drivers     │ IPC │  │
-│  │  File Sys  │ Security    │ ... │  │
+│  │  Scheduler │ Memory Mgmt │ VFS  │  │
+│  │  Network   │ Drivers     │ IPC  │  │
+│  │  File Sys  │ Security    │ ...  │  │
 │  └─────────────────────────────────┘  │
 │         (ALL in one address space)    │
 ├───────────────────────────────────────┤
